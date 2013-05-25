@@ -1,0 +1,104 @@
+<div id='live_tv_page'>
+    <div id='title'>
+        TV Guide
+    </div>
+    <ul id='category_list'>
+        <li class='focus_item'>
+            <a>Favorites</a>
+        </li>
+        <li>
+            <a>Hot</a>
+        </li>
+        <li>
+            <a>All Channels</a>
+        </li>
+        <li>
+            <a>Categorys</a>
+        </li>
+        <li>
+            <a>PVR</a>
+        </li>
+        <li>
+            <a>Search</a>
+        </li>
+    </ul>
+    <canvas id='nav_shadow' width="320" height="150"></canvas>
+    <img id='nav_arrow' src='customize/real6/asset/img/nav_arrow.png' />
+
+    <section id='favorite_section' class='content' style="display:none;">
+        <div class='date_bar'>
+            <span>05/13 Friday</span>
+        </div>
+        <div id='btv_vedio'>
+            <span id='video_name'>Scenery of the world</span>
+            <!--<video id='video_play' loop src='customize/real6/asset/video/2.mp4'></video>-->
+            <hr id='h_rule_line' />
+        </div>
+        <div id='ad_banner'></div>
+        <hr id='v_rule_line' />
+        <div id='favorite_container' class='view_port'>
+            <ul id='favorite_channels'>
+                <li></li>
+            </ul>
+            <div id='fav_focus_box'></div>
+        </div>
+    </section>
+
+    <section id='hot_section' class='content' style="display:none;">
+        <div id='hot_container' class='view_port'>
+            <ul id='hot_channels' class='scroll_box'>
+                <li>
+                    <div id='hot_sub_container' class='view_port'>
+                        <div class='title'>
+                            News
+                        </div>
+                        <ul class='horizontal_box scroll_box'>
+                            <li>
+                                <img /><span>Video Name</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div id='hot_focus_box'></div>
+        </div>
+    </section>
+
+    <section id='all_channel_section' class='content' style="display:none;">
+        <div class='date_bar'>
+            <span>05/13 Friday</span>
+        </div>
+        <div id='all_container' class='view_port'>
+            <ul id='all_channels' class='scroll_box'>
+                <li class='focus_item'>
+                    <div class='chan_info'>
+                        <img class='chan_logo' src='customize/real6/asset/img/SHOW.png' />
+                        <div class='chan_key'>
+                            <span class='chan_num'>1</span>
+                            <span class='chan_title'>Sony Pix</span>
+                        </div>
+                    </div>
+                    <div id='all_sub_container' class='view_port'>
+                        <ul class='horizontal_box scroll_box'>
+                            <li>
+                                <span class='prog_title'>Catch it Keep it</span>
+                                <span class='prog_time'>19:00</span>
+                                <div class='prog_progress'>
+                                	<div class='prog_current'></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>     	
+        </div>
+        <div id='all_focus_bar'>
+        		<div id='lowf0'></div>
+        		<div id='lowf1'></div>
+        		<div id='lowf2'></div>
+        		<div id='lowf3'></div>
+        		<div id='all_focus_box'></div>
+        	</div>
+    </section>
+
+</div>
